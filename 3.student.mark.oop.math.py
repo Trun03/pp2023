@@ -50,7 +50,7 @@ class mark:  #class for input mark
     mark.number = b
 
   def studentmark(mark):
-    print("student",i+1,"mark:",math.floor(mark.number))
+    print("student",i+1,"mark:",math.floor(mark.number)) #Using floor()
 Marklist = []
 
 while e not in CoursesNAME:
@@ -60,7 +60,6 @@ while e not in CoursesNAME:
 for i in range(x):
        print("Input mark for student",i+1,":")
        marks = float(input())
-       rdmark = math.floor(marks)    #Using floor()
        Studentmark = mark(marks)
        Marklist.append(Studentmark)
     
