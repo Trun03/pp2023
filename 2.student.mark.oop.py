@@ -81,6 +81,6 @@ print("*******************************")
 print(" **    3.Student's mark     ** ")
 print("*******************************")
 print(' ')
-print("Student'S mark in course", CoursesNAME[t],":")
+print("Student'S mark in course", e,":")
 for i in range(x):
   Marklist[i].studentmark()
