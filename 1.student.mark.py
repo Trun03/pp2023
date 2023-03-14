@@ -29,14 +29,14 @@ for t in range(r):
 print("Select a course name you want to input mark for student:")
 e = input()
 b = []
-k = []
-if e in q:
- for i in range(x):
+while e not in q:
+  print("Please select the course again.")
+  e = input()
+
+for i in range(x):
   b.append(i)
   print("Input mark for student",i+1,":")
   b[i]= int(input())
-else:
-  print("Please select the course again.")
 
 print("***************************************************************************************************************************************************************")
 print("                              **                    1. Student's name.                                   **")
